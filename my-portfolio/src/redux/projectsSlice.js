@@ -10,7 +10,7 @@ const initialState = {
       links: [
         {
           text: 'GitHub',
-          href: 'https://github.com/blxitze/react-portfolio',
+          href: 'https://github.com/blxitze/react_portfolio',
         },
       ],
     },

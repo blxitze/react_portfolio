@@ -47,7 +47,7 @@ function Home() {
         <Button
       as={Link}
       to="/about"
-      width="170px"
+      width="180px"
       height="50px"
       position="relative"
       border="2px solid white"

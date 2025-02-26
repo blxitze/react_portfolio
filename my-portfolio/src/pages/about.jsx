@@ -23,7 +23,7 @@ function About() {
   const tools = [
     { id: 1, icon: <FaReact size="8rem" color="white" />, title: 'React', text: 'This project was made on React :D' },
     { id: 2, icon: <SiDjango size="8rem" color="white" />, title: 'Django', text: 'I’m not bad at it, look in the PROJECTS section' },
-    { id: 3, icon: <SiFigma size="8rem" color="white" />, title: 'Figma', text: 'Here I make design layouts and prototypes' },
+    { id: 3, icon: <SiFigma size="8rem" color="white" />, title: 'Figma', text: 'Here I design layouts and prototypes' },
     { id: 4, icon: <SiPython size="8rem" color="white" />, title: 'Python', text: 'My first programming language...' },
     { id: 5, icon: <FaGithub size="8rem" color="white" />, title: 'GitHub', text: 'А как без владения Git-ом?' },
     { id: 6, icon: <FaCss3Alt size="8rem" color="white" />, title: 'CSS3', text: 'And here are the styles and layout' },
@@ -56,6 +56,10 @@ function About() {
         borderRadius="full"
         border='2px solid white'
         onClick={() => setShowTools(prev => !prev)}
+        _hover={{
+          color: 'black',
+          background: 'white',
+        }}
       />
 
       <AnimatePresence mode="wait">

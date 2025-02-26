@@ -158,6 +158,10 @@ function Contact() {
               aria-label="GitHub"
               colorScheme="white"
               border='1px solid white'
+              _hover={{
+                color: 'black',
+                background: 'white',
+              }}
             />
             <IconButton
               as="a"
@@ -168,6 +172,10 @@ function Contact() {
               aria-label="Instagram"
               colorScheme="white"
               border='1px solid white'
+              _hover={{
+                color: 'black',
+                background: 'white',
+              }}
             />
             <IconButton
               as="a"
@@ -178,6 +186,10 @@ function Contact() {
               aria-label="Telegram"
               colorScheme="white"
               border='1px solid white'
+              _hover={{
+                color: 'black',
+                background: 'white',
+              }}
             />
           </Flex>
         </Box>
